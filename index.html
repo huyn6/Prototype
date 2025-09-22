@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clarity Voice Franchise Onboarding Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content container">
+      <div class="hero__branding">
+        <img src="assets/clarity-logo.svg" alt="Clarity Voice logo" class="hero__logo" />
+        <div class="hero__text">
+          <p class="hero__kicker">Franchise Onboarding Journey</p>
+          <h1>Welcome to Clarity Voice</h1>
+          <p class="hero__lead">From kickoff to go-live, our proven onboarding experience launches your new phone system in just <strong>21 business days</strong>.</p>
+        </div>
+      </div>
+      <div class="hero__card">
+        <h2 class="hero__card-title">Set your target go-live date</h2>
+        <p>Choose the date you’d like to be fully online and we’ll map out the milestones leading up to launch.</p>
+        <label class="hero__label" for="target-date">Target Go-Live Date</label>
+        <input type="date" id="target-date" name="target-date" />
+        <div class="hero__summary">
+          <p class="hero__summary-label">Total timeline</p>
+          <p class="hero__summary-value"><span id="timeline-days">21</span> business days</p>
+        </div>
+        <p class="hero__note">Need a hand? Your Provisioning Specialist will keep you on track and informed at every step.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="timeline container" aria-label="Onboarding journey timeline">
+      <div class="timeline__header">
+        <h2>21-Day Success Plan</h2>
+        <p>Each phase builds toward a seamless installation. Track progress, celebrate milestones, and know exactly what’s coming next.</p>
+      </div>
+      <div class="timeline__bar" id="timeline-bar" role="list"></div>
+    </section>
+
+    <section class="stages" aria-label="Stage details">
+      <div class="container" id="stages"></div>
+    </section>
+
+    <section class="support container">
+      <div class="support__content">
+        <h2>Always-On Support</h2>
+        <p>Our Customer Experience team is ready to answer questions, align resources, and guide your franchise to launch day and beyond. We keep executives informed with milestone recaps and provide franchisees with a clear checklist for success.</p>
+      </div>
+      <ul class="support__highlights" aria-label="Highlights">
+        <li>
+          <h3>Weekly Updates</h3>
+          <p>Expect proactive communication with action items, ownership, and due dates.</p>
+        </li>
+        <li>
+          <h3>Transparent Milestones</h3>
+          <p>Customer and Clarity tasks are clearly identified so teams stay aligned.</p>
+        </li>
+        <li>
+          <h3>Dedicated Specialists</h3>
+          <p>Provisioning and Customer Experience experts collaborate to keep momentum going.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <div class="container cta__content">
+        <h2>Ready to launch your franchise communications?</h2>
+        <p>We’re committed to delivering white-glove onboarding in just 21 business days. Let’s put your plan into motion.</p>
+        <a class="cta__button" href="mailto:onboarding@clarityvoice.com">Connect with Clarity Voice</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>&copy; <span id="current-year"></span> Clarity Voice. All rights reserved.</p>
+      <p class="footer__tagline">Empowering franchises with crystal-clear customer conversations.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
