@@ -1,0 +1,16 @@
+<svg width="320" height="80" viewBox="0 0 320 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ring" x1="10%" y1="0%" x2="85%" y2="95%">
+      <stop offset="0%" stop-color="#f5a353" />
+      <stop offset="100%" stop-color="#e0853b" />
+    </linearGradient>
+  </defs>
+  <g>
+    <path
+      d="M44 12C27.984 12 15 24.984 15 41C15 57.016 27.984 70 44 70C54.568 70 63.808 65.448 70.248 58.064L59.368 49.048C55.224 53.848 50.216 56.52 44.248 56.52C32.936 56.52 23.728 47.312 23.728 36C23.728 24.688 32.936 15.48 44.248 15.48C50.568 15.48 55.928 18.784 60.072 23.416L70.952 14.4C64.512 7.016 54.824 12 44 12Z"
+      fill="url(#ring)"
+    />
+    <text x="92" y="38" fill="#1f2933" font-family="'Montserrat', 'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.04em">Clarity Voice</text>
+    <text x="92" y="58" fill="#60738a" font-family="'Montserrat', 'Segoe UI', Arial, sans-serif" font-size="14" letter-spacing="0.18em" font-weight="500">FRANCHISE ONBOARDING</text>
+  </g>
+</svg>
